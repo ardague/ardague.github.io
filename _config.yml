@@ -23,7 +23,7 @@ repository               : "ardague/ardague.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "arda_headshot.jpg"
+  avatar           : "arda_headshot2.png"
   name             : "Arda Güler"
   pronouns         : "he/him"  
   bio              : "PhD Candidate in Information Systems"
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/arda-g%C3%BCler-4473a41ba/?locale=en-US"
+  linkedin         : "arda-güler-4473a41ba"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
