@@ -2,7 +2,7 @@
 title: "Causal Machine Learning in Information Systems Research"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2026-03-28-CML-in-IS-BISE
 excerpt: ''
 date: 2026-03-28
 venue: 'Business & Information Systems Engineering (BISE)'
