@@ -1,9 +1,10 @@
 ---
 title: "Causal Machine Learning in Information Systems Research"
+authors: "Moritz von Zahn, Arda Güler, Jella Pfeiffer, Hajo A. Reijers & Oliver Hinz"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-03-28-CML-in-IS-BISE
-excerpt: ''
+abstract: ''
 date: 2026-03-28
 venue: 'Business & Information Systems Engineering (BISE)'
 slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
