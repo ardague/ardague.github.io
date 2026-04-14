@@ -28,6 +28,20 @@
   // (Reverted: Remove underline from publication title links)
 }
 
+.archive h2 {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+.archive hr {
+  margin-top: 0.25em;
+  margin-bottom: 0;
+}
+
+.archive hr + .list__item .archive__item {
+  padding-top: 0;
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
@@ -50,7 +64,7 @@
 
 .archive__item {
   border-bottom: 1px solid var(--global-border-color);
-  padding: 1.2rem 0;
+  padding: 0.5rem 0;
 }
 
 .archive__item:last-child {
@@ -86,7 +100,7 @@
 .archive__item-abstract-body {
   margin-top: 0.5em;
   padding: 0.05em 0.25em;
-  background-color: rgba(230, 240, 255, 0.6);
+  background-color: rgba(230, 240, 255, 0.25);
   border-left: 4px solid #a8c4e8;
   border-radius: 4px;
   font-size: $type-size-5-5;
