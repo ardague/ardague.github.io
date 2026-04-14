@@ -4,12 +4,14 @@ authors: "Moritz von Zahn, Arda Güler, Jella Pfeiffer, Hajo A. Reijers & Oliver
 collection: publications
 category: manuscripts
 permalink: /publication/2026-03-28-CML-in-IS-BISE
-abstract: ''
+abstract: 'In this editorial, we examine the role of causal machine learning in Information Systems research. We show how causal machine learning extends traditional causal inference by using machine learning methods to estimate causal effects in complex and high-dimensional settings. We identify two main opportunities for Information Systems scholars: using causal machine learning to study causal relationships and develop theory, and investigating causal machine learning as a sociotechnical phenomenon in practice. In doing so, we highlight the potential of causal machine learning to shape future research in informatin systems.'
 date: 2026-03-28
 venue: 'Business & Information Systems Engineering (BISE)'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+slidesurl: ''
+paperurl: ''
+bibtexurl: ''
+citation: 'von Zahn, M., Güler, A., Pfeiffer, J., <i>et al.</i> (2026). Causal Machine Learning in Information Systems Research. <i>Bus Inf Syst Eng</i>. 
+<a href="https://doi.org/10.1007/s12599-026-00999-x">
+https://doi.org/10.1007/s12599-026-00999-x
+</a>'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
