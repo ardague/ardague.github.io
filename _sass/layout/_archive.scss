@@ -25,6 +25,7 @@
       }
     }
   }
+  // (Reverted: Remove underline from publication title links)
 }
 
 .archive__subtitle {
@@ -40,12 +41,14 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.5em;
-  font-family: $sans-serif-narrow;
+  margin-bottom: 0.15em;
+  //font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
   color: var(--global-text-color);
 }
+
+
 
 .archive__item {
   border-bottom: 1px solid var(--global-border-color);
@@ -59,8 +62,9 @@
 .archive__item-authors {
   margin: 0 0 0.5em;
   color: var(--global-text-color);
-  font-size: $type-size-6;
+  font-size: $type-size-5-5;
   font-weight: normal;
+  //#font-family: $sans-serif-narrow;
 }
 
 .archive__item-summary {
