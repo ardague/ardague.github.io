@@ -9,7 +9,7 @@ date: 2025-08-01
 venue: 'Wirtschaftsinformatik (2025), Münster, Germany'
 slidesurl: ''
 paperurl: ''
-citation: 'Baum, L., Güler, Arda &amp; Hanneke, B. (2025). You Only Lose Once: Blockchain Gambling. <i>Wirtschaftsinformatik 2025 Proceedings</i>.<br>
+citation: 'Baum, L., Güler, A. &amp; Hanneke, B. (2025). You Only Lose Once: Blockchain Gambling. <i>Wirtschaftsinformatik 2025 Proceedings</i>.<br>
 <a https="https://www.wi2025.de/ai-summaries/#385">
 https://www.wi2025.de/ai-summaries/#385
 </a>'

@@ -135,6 +135,24 @@
     }
   }
 
+  /* research links */
+
+  &--research {
+    color: var(--global-text-color-light) !important;
+    font-size: $type-size-7;
+    font-weight: normal;
+    border: 1px solid var(--global-border-color) !important;
+    background-color: var(--global-bg-color);
+    border-radius: $border-radius;
+    padding: 0.2em 0.6em;
+
+    &:hover {
+      color: #fff !important;
+      background-color: var(--global-base-color);
+      border-color: var(--global-base-color) !important;
+    }
+  }
+
   /* extra large button */
 
   &--x-large {
