@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Medical AI"
+title: "Medical Analytics"
 permalink: /research/medical-ai/
 author_profile: true
 order_number: 4

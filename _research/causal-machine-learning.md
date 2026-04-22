@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Digital Interventions"
+title: "Causal Machine Learning"
 permalink: /research/digital-interventions/
 author_profile: true
 order_number: 1

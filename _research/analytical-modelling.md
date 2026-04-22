@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Digital Markets"
+title: "Analytical Modelling"
 permalink: /research/digital-markets/
 author_profile: true
 order_number: 2

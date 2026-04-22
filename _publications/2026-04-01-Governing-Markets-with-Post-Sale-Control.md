@@ -1,5 +1,5 @@
 ---
-title: "Governing Markets with Post-Sale Control"
+title: "De-Throning Platforms: Governing Markets with Post-Sale Control"
 authors: "Björn Hanneke & Arda Güler"
 collection: publications
 category: workingpapers
