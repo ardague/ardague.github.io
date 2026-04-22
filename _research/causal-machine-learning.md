@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Causal Machine Learning"
-permalink: /research/digital-interventions/
+permalink: /research/causal-machine-learning/
 author_profile: true
 order_number: 1
 excerpt: ""

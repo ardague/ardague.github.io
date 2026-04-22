@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Medical Analytics"
-permalink: /research/medical-ai/
+permalink: /research/medical-analytics/
 author_profile: true
 order_number: 4
 excerpt: "I apply statistical methods and machine learning to clinical data to better understand diseases such as post-COVID conditions and community-acquired pneumonia."

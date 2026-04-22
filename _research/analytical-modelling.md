@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Analytical Modelling"
-permalink: /research/digital-markets/
+permalink: /research/analytical-modelling/
 author_profile: true
 order_number: 2
 excerpt: "Through analytical modeling and empirical analysis, I study how technological innovations reshape market structures and strategic interactions among firms and consumers."
