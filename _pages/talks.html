@@ -115,6 +115,14 @@ function GlobeSection() {
   const worldRef = useRef(null);
   const [active, setActive] = useState(null);
   const [ready, setReady]   = useState(false);
+  const [globeReady, setGlobeReady] = useState(!!window.Globe);
+
+  useEffect(() => {
+    if (window.Globe) { setGlobeReady(true); return; }
+    const iv = setInterval(() => { if (window.Globe) { setGlobeReady(true); clearInterval(iv); } }, 150);
+    const to = setTimeout(() => clearInterval(iv), 15000);
+    return () => { clearInterval(iv); clearTimeout(to); };
+  }, []);
 
   // Group presentations by city, skip online entries with no coords
   const cities = useMemo(() => {
@@ -131,7 +139,7 @@ function GlobeSection() {
   }, []);
 
   useEffect(() => {
-    if (!mountRef.current || !window.Globe) return;
+    if (!mountRef.current || !globeReady) return;
     const el = mountRef.current;
 
     // Build arcs between every pair of cities
@@ -209,7 +217,7 @@ function GlobeSection() {
       if (el) el.innerHTML = "";
       worldRef.current = null;
     };
-  }, []);
+  }, [globeReady]);
 
   // React to active city changes
   useEffect(() => {
