@@ -1,5 +1,4 @@
 # Conference presentations and paper venues for the globe map.
-# CDSM is online — no coordinates, excluded from globe.
 
 - venue: "European Conference on Information Systems (ECIS)"
   type: "Conference"
@@ -48,8 +47,9 @@
   country: "Portugal"
   lat: 38.7169
   lng: -9.1395
+  title: "Pushing to the limit? Causal vs. predictive targeting for mobile notifications."
   papers:
-    - "Echoes of the Ping: Effects of Mobile Notifications on App Engagement"
+    - "Echoes of the Ping: Indirect Effects of Mobile Notifications on App Engagement"
 
 - venue: "Workshop on Information Technologies and Systems (WITS)"
   type: "Conference"
@@ -58,8 +58,9 @@
   country: "Thailand"
   lat: 13.7563
   lng: 100.5018
+  title: "Causal Targeting for Mobile Push Notifications."
   papers:
-    - "Echoes of the Ping: Effects of Mobile Notifications on App Engagement"
+    - "Echoes of the Ping: Indirect Effects of Mobile Notifications on App Engagement"
 
 - venue: "Conference on Digital Experiments (CODE@MIT)"
   type: "Conference"
@@ -68,8 +69,9 @@
   country: "USA"
   lat: 42.3601
   lng: -71.0589
+  title: "Echoes of the Ping: How Push Notifications Shape App Engagement and its Implications for Targeting"
   papers:
-    - "Echoes of the Ping: Effects of Mobile Notifications on App Engagement"
+    - "Echoes of the Ping: Indirect Effects of Mobile Notifications on App Engagement"
 
 - venue: "Workshop on Digital Markets (WDM)"
   type: "Workshop"
@@ -78,8 +80,9 @@
   country: "Netherlands"
   lat: 51.9244
   lng: 4.4777
+  title: "Pushing to the limit? Personalizing Mobile Push Notification Frequencies."
   papers:
-    - "Echoes of the Ping: Effects of Mobile Notifications on App Engagement"
+    - "Echoes of the Ping: Indirect Effects of Mobile Notifications on App Engagement"
 
 - venue: "ISMS Marketing Science"
   type: "Conference"
@@ -89,14 +92,26 @@
   lat: 38.7169
   lng: -9.1395
   papers:
-    - "Echoes of the Ping: Effects of Mobile Notifications on App Engagement"
+    - "Echoes of the Ping: Indirect Effects of Mobile Notifications on App Engagement"
 
 - venue: "Causal Data Science Meeting (CDSM)"
   type: "Conference"
-  year: "November 2024 & November 2025"
+  year: "November 2024"
   city: "Online"
   country: null
   lat: null
   lng: null
+  title: "Causal Targeting for Mobile Push Notifications."
   papers:
-    - "Echoes of the Ping: Effects of Mobile Notifications on App Engagement"
+    - "Echoes of the Ping: Indirect Effects of Mobile Notifications on App Engagement"
+
+- venue: "Causal Data Science Meeting (CDSM)"
+  type: "Conference"
+  year: "November 2025"
+  city: "Online"
+  country: null
+  lat: null
+  lng: null
+  title: "Echoes of the Ping: How Push Notifications Shape App Engagement and its Implications for Targeting"
+  papers:
+    - "Echoes of the Ping: Indirect Effects of Mobile Notifications on App Engagement"

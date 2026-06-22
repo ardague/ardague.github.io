@@ -84,6 +84,19 @@ author_profile: true
   background: var(--global-border-color);
   color: var(--global-text-color-light, #666);
 }
+.globe-section-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light, #aaa);
+  margin-top: 0.45rem;
+  margin-bottom: 0.1rem;
+}
+.globe-pres-title {
+  font-size: 0.80rem;
+  font-style: italic;
+}
 </style>
 
 <script>
@@ -153,9 +166,16 @@ author_profile: true
       if (item.type) html += '<span class="globe-tag">' + item.type + '</span>';
       html += '<div class="globe-venue">' + item.venue + '</div>';
       html += '<div class="globe-year">'  + item.year  + '</div>';
-      (item.papers || []).forEach(function (p) {
-        html += '<div class="globe-paper">' + p + '</div>';
-      });
+      if (item.title) {
+        html += '<div class="globe-section-label">Presentation Title</div>';
+        html += '<div class="globe-pres-title">' + item.title + '</div>';
+      }
+      if (item.papers && item.papers.length) {
+        html += '<div class="globe-section-label">Paper / Project</div>';
+        (item.papers || []).forEach(function (p) {
+          html += '<div class="globe-paper">' + p + '</div>';
+        });
+      }
       html += '</div>';
     });
     panel.innerHTML = html;
