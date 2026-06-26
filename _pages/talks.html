@@ -122,7 +122,7 @@ author_profile: true
   var DOTS   = "#222222";
   var ACTIVE = "#555555";
 
-  // Group presentations by city (skip online/no-coord entries)
+  /* Group presentations by city (skip online/no-coord entries) */
   var seen   = [];
   var cityMap = {};
   (window.PRESENTATIONS || [])
@@ -136,7 +136,7 @@ author_profile: true
     });
   var cities = seen.map(function (k) { return cityMap[k]; });
 
-  // Arcs between every pair of cities
+  /* Arcs between every pair of cities */
   var arcs = [];
   for (var i = 0; i < cities.length; i++) {
     for (var j = i + 1; j < cities.length; j++) {
@@ -249,7 +249,7 @@ author_profile: true
     new ResizeObserver(resize).observe(el);
   }
 
-  // Globe is loaded synchronously above; poll only as a safety net
+  /* Globe is loaded synchronously above; poll only as a safety net */
   if (typeof Globe !== 'undefined') {
     initGlobe();
   } else {
